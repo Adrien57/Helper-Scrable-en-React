@@ -1,0 +1,15 @@
+@import 'src/styles/vars';
+
+#letters {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 200px;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	background: $green;
+}

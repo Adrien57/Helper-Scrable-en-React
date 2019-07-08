@@ -1,0 +1,26 @@
+@import 'src/styles/vars';
+
+#board {
+	display: flex;
+	position: absolute;
+	top: 200px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: $board-color;
+
+	&-image {
+		background: url("./assets/images/scrabble.jpg") no-repeat;
+		width: 440px;
+		height: 440px;
+		margin: auto;
+	}
+
+	&-words {
+		padding: 100px;
+		margin: auto;
+		overflow: scroll;
+		height: 100%;
+		width: 100%;
+	}
+}
