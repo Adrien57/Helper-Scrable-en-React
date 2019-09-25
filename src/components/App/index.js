@@ -2,14 +2,15 @@
 import React from 'react';
 
 /* Import : Local */
-import Board from 'src/components/Board';
-import Letters from 'src/components/Letters';
+// j'importe mes containers directement
+import Board from 'src/containers/Board';
+import Letters from 'src/containers/Letters';
 import './app.scss';
 
 /* Code */
 const App = () => (
   <div id="app">
-    <Board status="typing" />
+    <Board />
     <Letters />
   </div>
 );
